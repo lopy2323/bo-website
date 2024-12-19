@@ -1,0 +1,42 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+   font: 1em sans-serif;
+   font-size: 16px;
+}
+
+.header{
+   background-color: black;
+   display:flex;
+   height: 80px;
+   justify-content: space-between;
+   align-items: center;
+   padding: 40px;
+}
+.header-title{
+   color: white;
+   text-transform: uppercase;
+}
+.header-button{
+  text-transform: uppercase;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.blok{
+  border-style:  solid;
+  border-color: black;
+  margin: bottom 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+};
+.photo{
+  width: 75px;
+  height: 575px;
+  border-radius: 5px;
+  border-style:  solid;
+  border-color: black;
+};
